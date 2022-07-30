@@ -1,0 +1,171 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight:900;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p{
+  color: grey;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.rotated{
+  transform: rotate(20deg);
+}
+
+/* navigation bar */
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 2.5rem;
+      font-weight: bold;
+}
+
+.navbar-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/* downlod-buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image{
+  width: 60%;
+  position: absolute;
+  right: 25%
+}
+
+
+
+/* features */
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+
+}
+
+.feature-box{
+  padding: 4.5%;
+  text-align: center;
+}
+
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* press */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 20%;
+  padding: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing{
+  padding: 10px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding:3%;
+}
+
+
+@media (max-width: 1000px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+/* cta */
+#cta{
+  color: #fff;
+  text-align: center;
+  padding: 30px 300px;
+  background-color: #ff4c68;
+}
+
+/* footer */
+#footer{
+  text-align: center;
+  padding: 30px;
+}
+
+.footer-item{
+  width: 10%;
+  padding:0 10px;
+}
+
+#gitlink{
+  font-family: 'Indie Flower', cursive;
+}
